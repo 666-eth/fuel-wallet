@@ -239,7 +239,7 @@ if __name__ == '__main__':
             #nstproxy_Channel='XXX'
             #nstproxy_Password='XXX'
             #nstproxies = f"http://{nstproxy_Channel}-residential-country_ANY-r_5m-s_BsqLCLkiVu:{nstproxy_Password}@gw-us.nstproxy.com:24125"
-            #proxies = {'all://': nstproxy}
+            #proxies = {'all://': nstproxies}
             proxies = {'all://': 'http://127.0.0.1:12345'}#以你的代理服务网址或ip和端口替换127.0.0.1:12345
             
             #print(captcha)
